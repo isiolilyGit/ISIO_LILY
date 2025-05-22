@@ -12,6 +12,14 @@ def add_item(name, quantity, price):
         items[name]["quantity"] += quantity
         items[name]["price"] = price
 
+#Removing an item from the list
+def remove_item(name):
+    if name in items:
+        del items[name]
+        print(f"The item {name} has been deleted")
+    else:
+        print(f"Item {name} not found")
+
 #A function to update items and their details
 def update_item():
     name = input("Enter the item's name to be updated ")
@@ -23,10 +31,10 @@ def update_item():
         if new_price:
             items[name]["price"] = float(new_price)
 
-        print("The updated list\n")
+        print("The updated list")
         for name, details in items.items():
             print(f"{details['quantity']} {name}s cost {details['price']:.2f}")
-             
+
     else:
         print(f"Item {name} not found")
 
@@ -58,6 +66,10 @@ def main():
             quantity = int(input("How many of the items do you want "))
             price = float(input("Enter the price "))
             add_item(name, quantity, price)
+        
+        elif choice == "2":
+            name = input("Which item do you want to remove")
+            remove_item()
         
         elif choice == "3":
             update_item()
