@@ -35,6 +35,7 @@ if vehicle_type == "car":
     car = Car(name, model)
     print("\n Car's details")
     car.display_details()
+    print(f"\n The car's MRO\n{Car.__mro__}")
 
 elif vehicle_type == "truck":
     name = input("What's the truck's name: ")
@@ -43,6 +44,7 @@ elif vehicle_type == "truck":
     truck = Truck(name, capacity)
     print("\n Truck's details")
     truck.display_details()
+    print(f"\n The truck's MRO\n{Car.__mro__}")
 
 else:
     print("Invalid car type")
