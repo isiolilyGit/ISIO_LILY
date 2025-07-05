@@ -1,0 +1,115 @@
+2025-07-05 14:39:09,529 - __main__ - INFO - Logging configured.
+2025-07-05 14:39:09,531 - __main__ - INFO - Starting Twitter Posting Agent...
+2025-07-05 14:39:09,533 - __main__ - CRITICAL - Configuration Error: Missing Twitter API credentials in environment variables. Ensure TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET are set.. Exiting.
+2025-07-05 14:39:09,533 - __main__ - INFO - Twitter Posting Agent stopped.
+2025-07-05 14:58:38,601 - __main__ - INFO - Logging configured.
+2025-07-05 14:58:38,601 - __main__ - INFO - Starting Twitter Posting Agent...
+2025-07-05 14:58:39,022 - twitter_client - INFO - Twitter API v1.1 authentication successful!
+2025-07-05 14:58:39,024 - twitter_client - INFO - Twitter API v2 client setup successful!
+2025-07-05 14:58:39,027 - content_generator - INFO - ContentGenerator initialized.
+2025-07-05 14:58:39,072 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 14:58:39,072 - __main__ - INFO - Scheduled tweet task to run every 60 seconds.
+2025-07-05 14:58:39,072 - __main__ - INFO - Agent is running. Press Ctrl+C to exit.
+2025-07-05 14:58:39,076 - apscheduler.scheduler - INFO - Added job "Daily Automated Tweet" to job store "default"
+2025-07-05 14:58:39,078 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 14:59:39,081 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:01:00], next run at: 2025-07-05 15:00:39 EAT)" (scheduled at 2025-07-05 14:59:39.072521+03:00)
+2025-07-05 14:59:39,081 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 14:59:39,081 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 14:59:39,637 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 14:59:39,637 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:01:00], next run at: 2025-07-05 15:00:39 EAT)" executed successfully
+2025-07-05 15:00:39,082 - __main__ - INFO - Twitter Posting Agent stopped.
+2025-07-05 15:04:01,781 - __main__ - INFO - Logging configured.
+2025-07-05 15:04:01,781 - __main__ - INFO - Starting Twitter Posting Agent...
+2025-07-05 15:04:02,291 - twitter_client - INFO - Twitter API v1.1 authentication successful!
+2025-07-05 15:04:02,305 - twitter_client - INFO - Twitter API v2 client setup successful!
+2025-07-05 15:04:02,307 - content_generator - INFO - ContentGenerator initialized.
+2025-07-05 15:04:02,323 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 15:04:02,327 - __main__ - INFO - Scheduled tweet task to run every 10 seconds.
+2025-07-05 15:04:02,327 - __main__ - INFO - Agent is running. Press Ctrl+C to exit.
+2025-07-05 15:04:02,338 - apscheduler.scheduler - INFO - Added job "Daily Automated Tweet" to job store "default"
+2025-07-05 15:04:02,340 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 15:04:12,336 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:22 EAT)" (scheduled at 2025-07-05 15:04:12.323889+03:00)
+2025-07-05 15:04:12,342 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 15:04:12,342 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 15:04:12,842 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 15:04:12,842 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:22 EAT)" executed successfully
+2025-07-05 15:04:22,332 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:32 EAT)" (scheduled at 2025-07-05 15:04:22.323889+03:00)
+2025-07-05 15:04:22,332 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 15:04:22,336 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 15:04:22,680 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 15:04:22,680 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:32 EAT)" executed successfully
+2025-07-05 15:04:32,348 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:42 EAT)" (scheduled at 2025-07-05 15:04:32.323889+03:00)
+2025-07-05 15:04:32,352 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 15:04:32,352 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 15:04:32,620 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 15:04:32,620 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:42 EAT)" executed successfully
+2025-07-05 15:04:42,325 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:52 EAT)" (scheduled at 2025-07-05 15:04:42.323889+03:00)
+2025-07-05 15:04:42,329 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 15:04:42,331 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 15:04:42,612 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 15:04:42,614 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:04:52 EAT)" executed successfully
+2025-07-05 15:04:52,328 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:05:02 EAT)" (scheduled at 2025-07-05 15:04:52.323889+03:00)
+2025-07-05 15:04:52,328 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 15:04:52,332 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 15:04:52,676 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 15:04:52,678 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:05:02 EAT)" executed successfully
+2025-07-05 15:05:02,340 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:05:12 EAT)" (scheduled at 2025-07-05 15:05:02.323889+03:00)
+2025-07-05 15:05:02,340 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 15:05:02,340 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 15:05:02,738 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 15:05:02,756 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:05:12 EAT)" executed successfully
+2025-07-05 15:05:12,326 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:05:22 EAT)" (scheduled at 2025-07-05 15:05:12.323889+03:00)
+2025-07-05 15:05:12,328 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 15:05:12,328 - content_generator - INFO - Generated time-based tweet content.
+2025-07-05 15:05:12,644 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 15:05:12,644 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 15:05:22 EAT)" executed successfully
+2025-07-05 15:05:22,325 - __main__ - INFO - Twitter Posting Agent stopped.
+2025-07-05 16:03:13,133 - __main__ - INFO - Logging configured.
+2025-07-05 16:03:13,135 - __main__ - INFO - Starting Twitter Posting Agent...
+2025-07-05 16:03:13,512 - twitter_client - INFO - Twitter API v1.1 authentication successful!
+2025-07-05 16:03:13,512 - twitter_client - INFO - Twitter API v2 client setup successful!
+2025-07-05 16:03:13,514 - content_generator - INFO - ContentGenerator initialized.
+2025-07-05 16:03:13,534 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 16:03:13,534 - __main__ - INFO - Scheduled tweet task to run every 10 seconds.
+2025-07-05 16:03:13,536 - __main__ - INFO - Agent is running. Press Ctrl+C to exit.
+2025-07-05 16:03:13,548 - apscheduler.scheduler - INFO - Added job "Daily Automated Tweet" to job store "default"
+2025-07-05 16:03:13,552 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 16:03:23,551 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:03:33 EAT)" (scheduled at 2025-07-05 16:03:23.532753+03:00)
+2025-07-05 16:03:23,553 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 16:03:23,553 - content_generator - INFO - Selected tweet content: Here's a motivational quote to brighten your day!
+2025-07-05 16:03:24,059 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 16:03:24,059 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:03:33 EAT)" executed successfully
+2025-07-05 16:03:33,542 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:03:43 EAT)" (scheduled at 2025-07-05 16:03:33.532753+03:00)
+2025-07-05 16:03:33,542 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 16:03:33,545 - content_generator - INFO - Selected tweet content: Hello, world! This is a tweet.
+2025-07-05 16:03:33,877 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 16:03:33,877 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:03:43 EAT)" executed successfully
+2025-07-05 16:03:43,536 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:03:53 EAT)" (scheduled at 2025-07-05 16:03:43.532753+03:00)
+2025-07-05 16:03:43,536 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 16:03:43,539 - content_generator - INFO - Selected tweet content: Just another day in paradise.
+2025-07-05 16:03:43,922 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 16:03:43,924 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:03:53 EAT)" executed successfully
+2025-07-05 16:03:53,577 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:04:03 EAT)" (scheduled at 2025-07-05 16:03:53.532753+03:00)
+2025-07-05 16:03:53,579 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 16:03:53,581 - content_generator - INFO - Selected tweet content: Hello, hang on a little longer. It'll all be over soon.
+2025-07-05 16:03:53,954 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 16:03:53,956 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:04:03 EAT)" executed successfully
+2025-07-05 16:04:03,557 - apscheduler.executors.default - INFO - Running job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:04:13 EAT)" (scheduled at 2025-07-05 16:04:03.532753+03:00)
+2025-07-05 16:04:03,558 - __main__ - INFO - Attempting to generate and post tweet...
+2025-07-05 16:04:03,560 - content_generator - INFO - Selected tweet content: Just another day in paradise.
+2025-07-05 16:04:03,887 - twitter_client - ERROR - Error posting tweet to API v2: 400 Bad Request
+$.media.media_ids: there must be a minimum of 1 items in the array
+2025-07-05 16:04:03,887 - apscheduler.executors.default - INFO - Job "Daily Automated Tweet (trigger: interval[0:00:10], next run at: 2025-07-05 16:04:13 EAT)" executed successfully
+2025-07-05 16:04:13,534 - __main__ - INFO - Twitter Posting Agent stopped.
