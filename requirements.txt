@@ -1,0 +1,4 @@
+# twitter_agent/requirements.txt
+tweepy
+python-dotenv
+APScheduler
